@@ -1,0 +1,17 @@
+:root{
+    --black-navy: #2E2F42;
+    --dark-grey-slate: #434455;
+    --blue-main-iris: #4D5AE5;
+    --blue-pressed-ocean: #2E2F42;
+    --light-white: #FFFFFF;
+    --dark-white-cloud: #F4F4FD;
+
+}
+
+.list{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+}
