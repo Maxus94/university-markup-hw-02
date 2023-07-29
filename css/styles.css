@@ -23,7 +23,8 @@ button {
 
 body {
   font-family: var(--main-font-family);
-  color: var(--black-navy);
+  color: var(--dark-grey-slate);
+  background-color: var(--light-white);
 }
 
 /*header styles*/
@@ -33,7 +34,7 @@ body {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -48,9 +49,11 @@ body {
   letter-spacing: 0.32px;
   color: var(--black-navy);
 }
-
-.contacts-list-link {
+.contacts{
   font-style: normal;
+}
+
+.contacts-list-link {  
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--dark-grey-slate);
@@ -72,6 +75,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: var(--black-navy);
 }
 
 /*Section Hero*/
@@ -89,11 +93,13 @@ body {
   color: var(--light-white);
 }
 
-.hero-button {
-  color: var(--light-white);
+.hero-button {  
+  font-family: var(--main-font-family);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04px;
+  color: var(--light-white);
   background-color: var(--blue-main-iris);
 }
 
@@ -109,30 +115,39 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--black-navy);
 }
 
 .advantage-text {
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: var(--dark-grey-slate);
+  letter-spacing: 0.32px;  
 }
 
 /*Our Team section*/
 
+.team-section{
+  background-color: var(--dark-white-cloud);
+}
+
 .team-list {
   text-align: center;
 }
+
+.team-member{
+  background-color: var(--light-white);
+}
+
 .team-member-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--black-navy);
 }
 
 .team-member-position {
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: var(--dark-grey-slate);
+  letter-spacing: 0.32px;  
 }
 
 /*footer*/
@@ -142,7 +157,7 @@ body {
 }
 
 .logo-span-footer {
-  color: var(--light-white);
+  color: var(--dark-white-cloud);
 }
 
 .footer-text {
